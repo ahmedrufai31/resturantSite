@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,800;1,900&family=League+Spartan:wght@200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;800;900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,800;1,900&family=League+Spartan:wght@200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100;200;300;400;500;600;800;900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/bestermind");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  margin: 0 auto;
+  background: #0c0b08;
+  overflow-x: hidden;
+}
+
+header {
+  padding: 32px 60px;
+}
+
+.s1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2.9rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 1.76px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 2rem;
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+}
+.nav-bar a {
+  color: #fff;
+}
+
+.btns {
+  display: flex;
+}
+
+.btn1 {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.register {
+  display: flex;
+  gap: 1rem;
+}
+
+/* hero section */
+
+.hero {
+}
+.s2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+}
+
+.side-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0px 60px;
+  padding-top: 10rem;
+  width: 4%;
+}
+
+.side-content h4 {
+  transform: rotate(-90deg);
+  font-size: 1.125rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.72px;
+  color: #fff;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 3.6px;
+  text-transform: capitalize;
+  width: 453px;
+  color: #dcca87;
+}
+
+.text1 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #aaa;
+}
+
+.hero-img-content {
+  width: 100%;
+}
+
+.hero-img-content img {
+  width: 80%;
+}
+
+.btn2 {
+  background: #dcca87;
+  padding: 8px 32px;
+  border: none;
+  font-size: 1rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #0c0b08;
+}
+
+.bottom-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.text2 {
+  color: #f5efdb;
+  font-size: 1rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+}
+.text2 img {
+  vertical-align: middle;
+}
+
+/* about section */
+
+.s3 {
+  background-image: url(../image/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20% 0% 20% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: right;
+}
+
+.about-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  z-index: 2;
+  gap: 2rem;
+  position: absolute;
+  right: 60%;
+}
+
+.about-content-left h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.text3 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #aaa;
+  text-align: right;
+  width: 450px;
+}
+
+.about-content-img {
+  position: relative;
+}
+
+.about-content-img svg {
+  position: relative;
+  left: -16;
+  top: 0;
+}
+
+.about-content-img img {
+  position: absolute;
+  z-index: 1;
+  top: -30%;
+  right: 40%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.about-content-right {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  z-index: 2;
+  gap: 3rem;
+  position: absolute;
+  left: 58%;
+}
+
+.about-content-right h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.text4 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #aaa;
+  text-align: left;
+  width: 450px;
+}
+
+/* menu section */
+.s4 {
+  padding: 8% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.menu-item-content {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.menu-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.menu-list-item {
+  display: flex;
+  gap: 2rem;
+}
+
+.menu-title h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 2.56px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.menu-list h2 {
+  font-size: 2.8rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.8px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.line {
+  width: 119px;
+  height: 1px;
+  background: #fafafa;
+  margin-top: 1rem;
+}
+
+.menu-list-item h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.span {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #aaa;
+}
+
+.text5 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/* chef section */
+
+.s5 {
+  background-image: url(../image/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 10% 10%;
+  gap: 4rem;
+}
+
+.chef-img-content {
+  width: 100%;
+}
+
+.chef-img-content img {
+  width: 100%;
+}
+.chef-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.chef-content h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.chef-content h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.text6 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-style: italic;
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #fff;
+  width: 570px;
+}
+
+.chef-content h3 {
+  font-size: 2rem;
+  font-family: "Cormorant upright";
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.28px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.chef-content h1 {
+  font-size: 4rem;
+  font-family: "Bestermind";
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 2.56px;
+  color: #aaa;
+}
+
+/* video section */
+.video-img-content {
+  width: 100%;
+}
+
+.video-img-content img {
+  width: 100%;
+}
+
+/* award section */
+
+.s6 {
+  background-image: url(../image/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 2% 0;
+}
+
+.banner {
+  padding-left: 2rem;
+}
+
+.awards-container {
+  display: flex;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0 7%;
+}
+.award-content {
+  display: flex;
+  flex-direction: column;
+}
+.award-content h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.award-content h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.nominess {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nominess svg {
+  width: 80%;
+}
+.nominess h3 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.award-nominess {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  margin-top: 3rem;
+}
+
+.award-img-content {
+  width: 100%;
+}
+
+.award-img-content img {
+  width: 60%;
+}
+
+/* gallery section */
+
+.s7 {
+  background-image: url(../image/malik-skydsgaard-jY9rX-E7ztU-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.photo-gallery-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5rem;
+  width: 50%;
+  gap: 1rem;
+}
+
+.photo-gallery-content h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.photo-gallery-content h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.text7 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #aaa;
+}
+
+.gallery-img-content {
+  width: 50%;
+}
+
+.gallery-img-content img {
+  width: 150px;
+  height: 260px;
+}
+
+/* find section */
+.s8 {
+  background-image: url(../image/BG.png);
+  background-repeat: no-repeat;
+  background-size: 85% 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  position: relative;
+  z-index: 3;
+}
+
+.find-us-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.find-us-content h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.find-us-content h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.text8 {
+  font-size: 1rem;
+  font-family: "Open sans";
+  font-weight: 400;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  color: #fff;
+}
+
+.find-img-content {
+  width: 50%;
+  padding-bottom: 15%;
+}
+
+.find-img-content img {
+  width: 85%;
+}
+
+/* subscribe section */
+
+.subscribe {
+  position: relative;
+}
+
+.s9 {
+  background: #0c0c0c;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+  width: 70%;
+  z-index: 4;
+  margin-left: 15%;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 1.5rem;
+}
+
+.sub-container h4 {
+  font-size: 1.4rem;
+  font-family: "Cormorant upright";
+  font-weight: 700;
+  line-height: 130%;
+  letter-spacing: 0.92px;
+  text-transform: capitalize;
+  color: #fff;
+  text-align: center;
+}
+
+.sub-container h2 {
+  font-size: 4rem;
+  font-family: "Cormorant upright";
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: 1.92px;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.input-button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  border: 1px solid #f5efdb;
+  background: #0c0c0c;
+  width: 635px;
+  height: 60px;
+}
+
+input::placeholder {
+  font-family: Cormorant Upright;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 175%;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+  color: #aaa;
+  padding-left: 1rem;
+}
+
+/* footer section */
+
+.s10 {
+  background-image: url(../image/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.footer-content-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+  margin-top: 3rem;
+}
+
+.footer-content-left {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.h3 {
+  font-family: Cormorant Upright;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 1.28px;
+  text-transform: capitalize;
+}
+
+.footer-content-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.footer-content-right {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.footer-content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 7rem;
+  margin-bottom: 4rem;
+}
+.footer-content-bottom p {
+  text-align: center;
+}
